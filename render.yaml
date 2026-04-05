@@ -8,11 +8,11 @@ services:
     healthCheckIntervalSeconds: 120
     envVars:
       - key: PORT
-        value: 8099
+        value: "8099"
       - key: LOG_LEVEL
-        value: INFO
+        value: "INFO"
       - key: RELOAD
-        value: false
+        value: "false"
       - key: LAW_API_KEY
         sync: false # 환경 변수에서 직접 설정
 
